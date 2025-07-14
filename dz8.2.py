@@ -1,5 +1,5 @@
 import string
-def is_palindrome(text):
+def is_palindrome(text: str)->str:
     text = str(text)
     text = text.lower() #Із завдання з хештегом
     text = text.replace(' ', '')#Із завдання з хештегом
